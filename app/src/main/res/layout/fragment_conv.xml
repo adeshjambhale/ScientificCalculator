@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".ConvFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:text=""
+        android:textColor="@color/colorSecondaryLite" />
+
+    <com.google.android.material.circularreveal.CircularRevealGridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.5"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="15dp"
+            android:text="Area📐"
+            android:background="#101010"
+            android:textColor="@color/colorSecondaryLite"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="15dp"
+            android:text="Length📏"
+            android:textColor="@color/colorSecondaryLite"
+            android:background="#101010"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="15dp"
+            android:text="Weight⚖️"
+            android:background="#101010"
+            android:textColor="@color/colorSecondaryLite"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="15dp"
+            android:text="Temperature🌡️"
+            android:background="#101010"
+            android:textColor="@color/colorSecondaryLite"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+
+    </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+</LinearLayout>
