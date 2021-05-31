@@ -2,5 +2,34 @@
     <string name="app_name">ScientificCalculator</string>
     <string name="tab_text_1">Calculator</string>
     <string name="tab_text_2">Converter</string>
+    <string name="Btn_1">1</string>
+    <string name="Btn_2">2</string>
+    <string name="Btn_3">3</string>
+    <string name="Mul_Btn">×</string>
+    <string name="clr_btn">C</string>
+    <string name="sub_btn">-</string>
+    <string name="Btn_6">6</string>
+    <string name="Btn_5">5</string>
+    <string name="Btn_4">4</string>
+    <string name="Btn_0">0</string>
+    <string name="Decimal">.</string>
+    <string name="add_btn">+</string>
+    <string name="Btn_9">9</string>
+    <string name="Btn_8">8</string>
+    <string name="Btn_7">7</string>
+    <string name="Div_btn">÷</string>
+    <string name="inv_btn">INV</string>
+    <string name="tan">tan</string>
+    <string name="cos">cos</string>
+    <string name="sin">sin</string>
+    <string name="Pi">π</string>
+    <string name="Equal">=</string>
+    <string name="Factorial">!</string>
+    <string name="Sq_root">√</string>
+    <string name="power">xⁿ</string>
+    <string name="ln">ln</string>
+    <string name="log">log</string>
+    <string name="backspace_button">Backspace Button</string>
+    <string name="text0">0</string>
 
 </resources>

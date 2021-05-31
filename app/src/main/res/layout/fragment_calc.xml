@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:hint="0"
+        android:hint="@string/text0"
         android:gravity="center|end"
         android:padding="10dp"
         android:maxLength="15"
@@ -41,7 +41,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="log"
+            android:text="@string/log"
             android:id="@+id/log_btn"
             android:textAllCaps="false"
             android:textColor="#ffffff"
@@ -54,7 +54,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="ln"
+            android:text="@string/ln"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="20sp" />
@@ -65,7 +65,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="xⁿ"
+            android:text="@string/power"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="20sp" />
@@ -76,7 +76,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="√"
+            android:text="@string/Sq_root"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="20sp" />
@@ -87,7 +87,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="!"
+            android:text="@string/Factorial"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="20sp" />
@@ -107,7 +107,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="π"
+            android:text="@string/Pi"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="20sp" />
@@ -118,7 +118,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="sin"
+            android:text="@string/sin"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="20sp" />
@@ -129,7 +129,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="cos"
+            android:text="@string/cos"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="20sp" />
@@ -140,7 +140,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="tan"
+            android:text="@string/tan"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="20sp" />
@@ -151,7 +151,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="INV"
+            android:text="@string/inv_btn"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="18sp" />
@@ -172,7 +172,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/colorPrimaryDark"
-            android:text="7"
+            android:text="@string/Btn_7"
             android:textColor="@color/colorTextonPrimary"
             android:textSize="24sp" />
 
@@ -183,7 +183,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/colorPrimaryDark"
-            android:text="8"
+            android:text="@string/Btn_8"
             android:textColor="@color/colorTextonPrimary"
             android:textSize="24sp" />
 
@@ -195,7 +195,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/colorPrimaryDark"
-            android:text="9"
+            android:text="@string/Btn_9"
             android:textColor="@color/colorTextonPrimary"
             android:textSize="24sp" />
 
@@ -206,7 +206,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/colorPrimaryDark"
-            android:text="+"
+            android:text="@string/add_btn"
             android:textColor="@color/colorSecondaryLite"
             android:textSize="30sp" />
 
@@ -216,6 +216,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/colorPrimaryDark"
+            android:contentDescription="@string/backspace_button"
             android:src="@drawable/ic_backspace_black_24dp" />
 
     </LinearLayout>
@@ -234,7 +235,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/colorPrimaryDark"
-            android:text="4"
+            android:text="@string/Btn_4"
             android:textColor="@color/colorTextonPrimary"
             android:textSize="24sp" />
 
@@ -245,7 +246,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/colorPrimaryDark"
-            android:text="5"
+            android:text="@string/Btn_5"
             android:textColor="@color/colorTextonPrimary"
             android:textSize="24sp" />
 
@@ -257,7 +258,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/colorPrimaryDark"
-            android:text="6"
+            android:text="@string/Btn_6"
             android:textColor="@color/colorTextonPrimary"
             android:textSize="24sp" />
 
@@ -268,7 +269,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/colorPrimaryDark"
-            android:text="-"
+            android:text="@string/sub_btn"
             android:textColor="@color/colorSecondaryLite"
             android:textSize="30sp" />
 
@@ -279,7 +280,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/colorPrimaryDark"
-            android:text="C"
+            android:text="@string/clr_btn"
             android:textColor="@color/colorTextonPrimary"
             android:textSize="24sp" />
 
@@ -313,7 +314,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@color/colorPrimaryDark"
-                    android:text="1"
+                    android:text="@string/Btn_1"
                     android:textColor="@color/colorTextonPrimary"
                     android:textSize="24sp" />
 
@@ -324,7 +325,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@color/colorPrimaryDark"
-                    android:text="2"
+                    android:text="@string/Btn_2"
                     android:textColor="@color/colorTextonPrimary"
                     android:textSize="24sp" />
 
@@ -336,7 +337,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@color/colorPrimaryDark"
-                    android:text="3"
+                    android:text="@string/Btn_3"
                     android:textColor="@color/colorTextonPrimary"
                     android:textSize="24sp" />
 
@@ -347,7 +348,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@color/colorPrimaryDark"
-                    android:text="×"
+                    android:text="@string/Mul_Btn"
                     android:textColor="@color/colorSecondaryLite"
                     android:textSize="30sp" />
 
@@ -373,7 +374,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@color/colorPrimaryDark"
-                    android:text="0"
+                    android:text="@string/Btn_0"
                     android:textColor="@color/colorTextonPrimary"
                     android:textSize="24sp" />
 
@@ -384,7 +385,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@color/colorPrimaryDark"
-                    android:text="."
+                    android:text="@string/Decimal"
                     android:textColor="@color/colorTextonPrimary"
                     android:textSize="30sp" />
 
@@ -395,7 +396,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@color/colorPrimaryDark"
-                    android:text="÷"
+                    android:text="@string/Div_btn"
                     android:textColor="@color/colorSecondaryLite"
                     android:textSize="30sp" />
 
@@ -410,7 +411,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/colorPrimaryDark"
-            android:text="="
+            android:text="@string/Equal"
             android:textColor="@color/colorTextonPrimary"
             android:textSize="30sp" />
 
